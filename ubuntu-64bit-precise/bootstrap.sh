@@ -9,6 +9,9 @@ apt-get install -y apache2
 rm -rf /var/www
 ln -fs /vagrant/web /var/www
 
+# version control
+apt-get install -y git
+
 # build system
 apt-get install -y gradle
 
