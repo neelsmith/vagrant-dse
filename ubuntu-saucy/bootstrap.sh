@@ -17,8 +17,15 @@ apt-get install -y gradle
 
 
 apt-get install -y nodejs
-apt-get install -y npm
+sudo ln -s /usr/bin/nodejs /usr/bin/node
 
-apt-get install -y ruby
-#gem install mdpress
+apt-get install -y npm
+npm install beautiful-docs
+
+
+apt-get install -y ruby2.0 ruby2.0-dev build-essential libssl-dev zlib1g-dev ruby-switch
+ruby-switch --set ruby2.0
+gem install mdpress
+
+
 
