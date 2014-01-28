@@ -15,3 +15,6 @@ apt-get install -y git
 # build system
 apt-get install -y gradle
 
+apt-get install -y ruby
+
+
