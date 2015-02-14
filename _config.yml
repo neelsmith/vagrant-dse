@@ -1,0 +1,32 @@
+# Dependencies
+markdown:         redcarpet
+pygments:         true
+
+# Permalinks
+permalink:        pretty
+
+# Setup
+title:            Vagrant digital scholarly editions
+tagline:          'A virtual machine for editors'
+description:      'A Vagrant virtual machine with a full software suite for creating digital scholarly editions'
+baseurl: '/vagrant-dse/'
+
+
+author:
+  name:           'Neel Smith'
+ 
+
+paginate:         5
+
+
+
+links:
+  - title: Neel Smith on github
+    url: http://neelsmith.github.io//
+    external: true
+  - title: Open Paleography
+    url: http://openpaleography.github.io/
+    external: true
+  - title: Github source repository
+    url: https://github.com/neelsmith/vagrant-dse
+    external: true
